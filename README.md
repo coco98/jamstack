@@ -90,6 +90,14 @@ export const query = graphql`
 
   ![Demo app](./assets/test_app.jpg)
 
+
+# Deploying to netlify on data changes
+- Setup a git repo based continuous build on netlify
+- Create a build-hook
+- Head to the events tab on the hasura console
+- Create a new trigger. Select the table you want to listen to changes on and the operations.
+- Set the URL to be the netlify build-trigger URL
+
 # Contributing
 
 Checkout the [contributing guide](../../../CONTRIBUTING.md#community-content) for more details.
