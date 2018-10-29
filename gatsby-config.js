@@ -3,7 +3,6 @@ const { createHttpLink } = require(`apollo-link-http`)
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-netlify-cache',
     {
       resolve: 'gatsby-source-graphql',
       options: {
