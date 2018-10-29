@@ -10,7 +10,7 @@ module.exports = {
         fieldName: 'hasura',
         createLink: () =>
           createHttpLink({
-            uri: 'https://jamstack.herokuapp.com/v1alpha1/graphql',
+            uri: '',
             headers: {},
             fetch,
           }),
