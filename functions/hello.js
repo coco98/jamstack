@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+const nodemailer = require('nodemailer');
 
 exports.handler = (event, context, cb) => {
   console.log(event);
