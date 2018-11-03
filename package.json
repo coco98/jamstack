@@ -12,6 +12,7 @@
     "gatsby": "^2.0.9",
     "gatsby-link": "^2.0.2",
     "gatsby-source-graphql": "^2.0.2",
+    "nodemailer": "^4.6.8",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   }
