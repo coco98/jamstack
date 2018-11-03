@@ -1,6 +1,6 @@
 // import nodemailer from 'nodemailer';
 
-export handler = (event, context, cb) => {
+exports.handler = (event, context, cb) => {
   console.log(event);
   cb(null, {
     statusCode: 200,
